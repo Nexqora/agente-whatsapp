@@ -399,3 +399,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Secretos y archivos locales de Supabase
+.env
+.env.*
+!.env.example
+supabase/.temp/
+supabase/.branches/

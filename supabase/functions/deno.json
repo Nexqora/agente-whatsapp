@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "check": "deno check whatsapp-webhook/index.ts tests/",
+    "test": "deno test --allow-env tests/"
+  },
+  "fmt": { "lineWidth": 110 },
+  "lint": { "rules": { "exclude": ["no-import-prefix"] } }
+}
